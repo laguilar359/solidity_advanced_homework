@@ -98,16 +98,22 @@ Lastly, the minter role will need to be given back to the `PupperCoinCrowdSale` 
 ### Deployment and Testing
 
 Deploy the contract to your LocalHost first and test it by sending it Ether.
+```
+```
 ![01Deploy_PupperCoinCrowdSale_Contract](Screenshots/01Deploy_PupperCoinCrowdSale_Contract.jpeg)
 ![02Deploy_PupperCoinCrowdSale_Contract2](Screenshots/02Deploy_PupperCoinCrowdSale_Contract2.jpeg)
 ![03Send_ETH_to_CrowdSale](Screenshots/03Send_ETH_to_CrowdSale.jpeg)
 ![04Send_ETH_to_CrowdSale2](Screenshots/04Send_ETH_to_CrowdSale2.jpeg)
 
 Connect the token to `MyCrypto` and test some transactions.
+```
+```
 ![11Connect_CrowdSale_to_MyCrypto2](Screenshots/11Connect_CrowdSale_to_MyCrypto2.jpeg)
 ![10Connect_CrowdSale_to_MyCrypto.jpeg](Screenshots/10Connect_CrowdSale_to_MyCrypto.jpeg)
 
 Deploy the contract to the `Kovan` testnet and test it by sending it Ether. Since Ether balances on the testnet are lower, reduce the `goal` and the `cap` before deploying.
+```
+```
 ![05Deploy_on_Kovan_Testnet](Screenshots/05Deploy_on_Kovan_Testnet.jpeg)
 ![06Deploy_on_Kovan_Testnet2](Screenshots/06Deploy_on_Kovan_Testnet2.jpeg)
 ![07Deploy_on_Kovan_Testnet3](Screenshots/07Deploy_on_Kovan_Testnet3.jpeg)
